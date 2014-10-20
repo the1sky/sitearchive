@@ -1,0 +1,93 @@
+[2014-10-17 00:09:29.803] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:24:52.378] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:27:42.503] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:29:02.608] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:33:15.965] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:36:58.612] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:41:56.337] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:43:17.076] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:51:43.838] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:54:57.246] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 00:58:29.019] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 03:24:56.572] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 03:36:18.043] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 03:43:34.334] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 03:45:14.406] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 04:02:19.226] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 04:28:17.528] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 04:29:15.348] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 04:32:33.665] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 04:33:24.621] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 11:54:12.857] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 11:55:28.750] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 11:56:15.655] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 11:58:10.045] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:50:37.996] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:50:38.000] [INFO] dateFileLog - http://www.cnool.net
+[2014-10-17 12:50:49.150] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:50:58.093] [INFO] dateFileLog - http://www.cnool.net
+[2014-10-17 12:52:08.019] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:52:18.317] [INFO] dateFileLog - http://www.cnool.net
+[2014-10-17 12:52:45.700] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:52:55.924] [INFO] dateFileLog - http://www.cnool.net
+[2014-10-17 12:53:09.068] [INFO] dateFileLog - end
+[2014-10-17 12:53:09.430] [ERROR] dateFileLog - [ { message: 'close nothing!' },
+  { message: 'open browser done!' },
+  { message: 'all done!' },
+  { message: 'ERROR: The process "chrome.exe" with PID 12924 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8620 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 10404 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 6760 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13588 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13736 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13712 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12888 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12176 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12492 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 10840 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8424 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12384 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13968 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 14264 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 5116 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8456 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13628 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 7816 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12836 could not be terminated.\r\nReason: The operation attempted is not supported.\r\r\nERROR: The process "chrome.exe" with PID 7248 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 14392 could not be terminated.\r\nReason: The operation attempted is not supported.\r\r\nERROR: The process "chrome.exe" with PID 15192 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13652 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\n' } ]
+[2014-10-17 12:53:09.431] [INFO] dateFileLog - end
+[2014-10-17 12:53:09.588] [ERROR] dateFileLog - [ { message: 'close nothing!' },
+  { message: 'open browser done!' },
+  { message: 'all done!' },
+  { message: 'ERROR: The process "chrome.exe" with PID 12924 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8620 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 10404 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 6760 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13588 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13736 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13712 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12888 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12176 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12492 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 10840 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8424 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12384 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13968 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 14264 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 5116 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 8456 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13628 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 7816 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 12836 could not be terminated.\r\nReason: The operation attempted is not supported.\r\r\nERROR: The process "chrome.exe" with PID 7248 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 14392 could not be terminated.\r\nReason: The operation attempted is not supported.\r\r\nERROR: The process "chrome.exe" with PID 15192 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\nERROR: The process "chrome.exe" with PID 13652 could not be terminated.\r\nReason: There is no running instance of the task.\r\r\n' } ]
+[2014-10-17 12:53:39.875] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 12:53:39.879] [INFO] dateFileLog - http://www.cnstock.com
+[2014-10-17 12:53:54.416] [INFO] dateFileLog - end
+[2014-10-17 12:54:00.840] [INFO] dateFileLog - http://www.cnsuv.com
+[2014-10-17 12:54:02.008] [INFO] dateFileLog - end
+[2014-10-17 12:54:16.678] [INFO] dateFileLog - end
+[2014-10-17 12:54:20.843] [INFO] dateFileLog - http://www.cntaijiquan.com
+[2014-10-17 12:54:22.697] [INFO] dateFileLog - end
+[2014-10-17 12:54:34.805] [INFO] dateFileLog - end
+[2014-10-17 12:54:40.846] [INFO] dateFileLog - http://www.cnwav.com
+[2014-10-17 12:54:43.478] [INFO] dateFileLog - end
+[2014-10-17 12:54:54.619] [INFO] dateFileLog - end
+[2014-10-17 12:55:00.844] [INFO] dateFileLog - http://www.cnzz.com
+[2014-10-17 12:55:02.914] [INFO] dateFileLog - end
+[2014-10-17 12:55:13.715] [INFO] dateFileLog - end
+[2014-10-17 12:55:20.843] [INFO] dateFileLog - http://www.coolpad.cn
+[2014-10-17 12:55:22.478] [INFO] dateFileLog - end
+[2014-10-17 12:55:33.179] [INFO] dateFileLog - end
+[2014-10-17 12:55:40.843] [INFO] dateFileLog - http://www.coolxap.com
+[2014-10-17 12:55:42.505] [INFO] dateFileLog - end
+[2014-10-17 12:55:53.163] [INFO] dateFileLog - end
+[2014-10-17 12:56:00.851] [INFO] dateFileLog - http://www.cpiano.com
+[2014-10-17 12:56:02.553] [INFO] dateFileLog - end
+[2014-10-17 12:56:15.633] [INFO] dateFileLog - end
+[2014-10-17 12:56:20.848] [INFO] dateFileLog - http://www.cqcbank.com
+[2014-10-17 12:56:24.243] [INFO] dateFileLog - end
+[2014-10-17 12:56:32.864] [INFO] dateFileLog - end
+[2014-10-17 12:56:33.400] [INFO] dateFileLog - end
+[2014-10-17 12:56:40.843] [INFO] dateFileLog - http://www.cqrcb.com
+[2014-10-17 12:56:42.161] [INFO] dateFileLog - end
+[2014-10-17 12:56:42.414] [INFO] dateFileLog - end
+[2014-10-17 12:56:53.088] [INFO] dateFileLog - end
+[2014-10-17 12:56:53.258] [INFO] dateFileLog - end
+[2014-10-17 12:57:00.846] [INFO] dateFileLog - http://www.cscb.cn
+[2014-10-17 12:57:02.306] [INFO] dateFileLog - end
+[2014-10-17 12:57:12.911] [INFO] dateFileLog - end
+[2014-10-17 12:57:20.849] [INFO] dateFileLog - http://www.csrc.gov.cn
+[2014-10-17 12:57:22.274] [INFO] dateFileLog - end
+[2014-10-17 12:57:32.511] [INFO] dateFileLog - end
+[2014-10-17 12:57:32.773] [INFO] dateFileLog - end
+[2014-10-17 12:57:40.854] [INFO] dateFileLog - http://www.cuctv.com
+[2014-10-17 12:57:42.365] [INFO] dateFileLog - end
+[2014-10-17 12:57:42.402] [INFO] dateFileLog - end
+[2014-10-17 12:57:54.210] [INFO] dateFileLog - end
+[2014-10-17 12:58:00.853] [INFO] dateFileLog - http://www.cyol.net
+[2014-10-17 12:58:02.308] [INFO] dateFileLog - end
+[2014-10-17 12:58:14.397] [INFO] dateFileLog - end
+[2014-10-17 13:13:58.879] [INFO] dateFileLog - http://www.d.cn
+[2014-10-17 13:13:59.824] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 13:14:17.066] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-17 15:22:22.358] [INFO] dateFileLog - Connection has been established successfully.

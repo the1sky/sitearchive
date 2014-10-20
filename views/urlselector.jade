@@ -1,0 +1,12 @@
+//
+   Created by nant on 9/11/2014.
+
+#urlselector
+    p.title 选择URL:
+    select#urls
+        - var len =data.length;
+        - for( var i = 0; i < len; i++ )
+            - var type = ( i % 2 ) != 0 ? 'even' : 'odd';
+            - var dataItem = data[i]
+            - var url = dataItem['url']
+            option(value='#{url}') #{url}

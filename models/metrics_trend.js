@@ -1,0 +1,27 @@
+module.exports.metrics = [
+	{"name":"first_screen_time", "desc":"首屏时间", "d":"1"},
+	{"name":"white_screen_time", "desc":"白屏时间", "d":"1"},
+	{"name":"load_time", "desc":"资源总下载时间", "d":"1"},
+	{"name":"domready_event", "desc":"domready时间", "d":"1"},
+	{"name":"onload_event", "desc":"onload时间", "d":"1"},
+	{"name":"html_requests", "desc":"Html请求数", "d":"0"},
+	{"name":"html_size", "desc":"Html大小", "d":"0"},
+	{"name":"css_requests", "desc":"css请求数", "d":"0"},
+	{"name":"css_size", "desc":"css大小", "d":"0"},
+	{"name":"gif_requests", "desc":"gif请求数", "d":"0"},
+	{"name":"gif_size", "desc":"gif大小", "d":"0"},
+	{"name":"png_requests", "desc":"png请求数", "d":"0"},
+	{"name":"png_size", "desc":"png大小", "d":"0"},
+	{"name":"jpeg_requests", "desc":"jpeg请求数", "d":"0"},
+	{"name":"jpeg_size", "desc":"jpeg大小", "d":"0"},
+	{"name":"js_requests", "desc":"js请求数", "d":"0"},
+	{"name":"js_size", "desc":"js大小", "d":"0"},
+	//{"name":"flash_requests", "desc":"flash请求数", "d":"0"},
+	//{"name":"flash_size", "desc":"flash大小", "d":"0"},
+	{"name":"image_requests", "desc":"image请求数", "d":"0"},
+	{"name":"image_size", "desc":"image大小", "d":"0"},
+	{"name":"total_requests", "desc":"total请求数", "d":"0"},
+	{"name":"total_size", "desc":"total大小", "d":"0"},
+	{"name":"dom_count", "desc":"DOM数量", "d":"0"}
+]
+

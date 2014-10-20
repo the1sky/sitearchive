@@ -1,0 +1,322 @@
+//
+   Created by nant on 10/17/2014.
+
+#side-nav.col-sm-2.hidden-xs.hidden-sm.hidden-print.affix
+    ul.nav
+        li.active(role='menuitem')
+            a(href='#about') 关于
+        li(role='menuitem')
+            a(href='#metrics') 指标项
+            ul.nav
+                li
+                    a(href='#properties-kudos') Kudos
+                li
+                    a(href='#properties-awards') Awards
+                li
+                    a(href='#properties-buildings') Buildings
+        li(role='menuitem')
+            a(href='#download') 下载数据
+        li(role='menuitem')
+            a(href='#api') API调用
+#help-content.col-xs-12.col-sm-12.col-md-10
+    a#info(name='about')
+    h4 关于
+    | SiteAcrhive是互联网网页性能及资源利用综合分析工具,用于观察互联网整体网络资源使用情况与分析单网站资源使用情况的工具。
+    a#properties(name='metrics')
+    h4 指标项
+        dl
+            dt#numurls
+                a(href='trends.php#numurls') URLs Analyzed
+            dd
+                | This chart shows the total number of URLs archived during each crawl.
+                | This chart is important because the number of URLs (sample size) can affect the metrics being gathered.
+            dt#renderStart
+                a(href='trends.php#onLoad') Load Time
+            dd
+                | This chart plots the average window.onload time in milliseconds.
+            dt#reqTotal
+                a(href='trends.php#renderStart') Start Render Time
+            dd
+                | Start render is the time at which something was first displayed to the screen.
+            dt#bytesTotal
+                a(href='trends.php#bytesTotal') Total Transfer Size
+            dd
+                | This is the average transfer size of all responses for a single website.
+                | Note that if the response is compressed, the transfer size is smaller than the original uncompressed content.
+            dt#reqTotal
+                a(href='trends.php#reqTotal') Total Requests
+            dd
+                | This chart shows the average number of requests for a single website.
+            dt#bytesHtml
+                a(href='trends.php#bytesHtml') HTML Transfer Size
+            dd
+                | This is the average transfer size of all HTML responses for a single website.
+                | Note that if the response is compressed, the transfer size is smaller than the original uncompressed content.
+            dt#reqHtml
+                a(href='trends.php#reqHtml')
+            dd
+                | This chart shows the average number of HTML requests for a single website.
+            dt#bytesJS
+                a(href='trends.php#bytesJS') JS Transfer Size
+            dd
+                | This is the average transfer size of all JavaScript responses for a single website.
+                | Note that if the response is compressed, the transfer size is smaller than the original uncompressed content.
+            dt#reqJS
+                a(href='trends.php#reqJS') JS Requests
+            dd
+                | This chart shows the average number of JavaScript requests for a single website.
+            dt#bytesCSS
+                a(href='trends.php#bytesCSS') CSS Transfer Size
+            dd
+                | This is the average transfer size of all stylesheet responses for a single website.
+                | Note that if the response is compressed, the transfer size is smaller than the original uncompressed content.
+            dt#reqCSS
+                a(href='trends.php#reqCSS') CSS Requests
+            dd
+                | This chart shows the average number of stylesheet requests for a single website.
+            dt#bytesImg
+                a(href='trends.php#bytesImg') Image Transfer Size
+            dd
+                | This is the average transfer size of all image responses for a single website.
+            dt#reqImg
+                a(href='trends.php#reqImg') Image Requests
+            dd
+                | This chart shows the average number of image requests for a single website.
+            dt#bytesFlash
+                a(href='trends.php#bytesFlash') Flash Transfer Size
+            dd
+                | This is the average transfer size of all Flash responses for a single website.
+            dt#reqFlash
+                a(href='trends.php#reqFlash') Flash Requests
+            dd
+                | This chart shows the average number of Flash requests for a single website.
+            dt#_connections
+                a(href='trends.php#_connections') TCP Connections
+            dd
+                | This chart shows the average number of TCP connections that were opened during page load.
+                | Crawls before May 15 2014 will show zero for this stat.
+            dt#SpeedIndex
+                a(href='trends.php#SpeedIndex') Speed Index
+            dd
+                | This chart shows the average Speed Index value across all websites.
+                a(href='https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index') Speed Index
+                | measures how quickly the page is rendered.
+                | Lower values are better.
+            dt#PageSpeed
+                a(href='trends.php#PageSpeed') PageSpeed Score
+            dd
+                a(href='https://developers.google.com/speed/pagespeed/') PageSpeed
+                | is a performance analysis tool that grades websites on
+                | a scale of 1-100.
+                | Higher scores are better.
+                | This chart shows the average PageSpeed score across all websites.
+            dt#htmlDocSize
+                a(href='trends.php#htmlDocSize') Doc Size
+            dd
+                | This chart shows the average size in kB of the main HTML document for the website.
+                | NOTE: Right now this is the
+                i compressed
+                | size. We hope to change that to the uncompressed size in the future.
+            dt#bytesHtmlDoc
+                a(href='interesting.php#bytesHtmlDoc') HTML Document Transfer Size
+            dd
+                | The transfer size of the main HTML document.
+            dt#numDomElements
+                a(href='trends.php#numDomElements') DOM Elements
+            dd
+                | This charts shows the average number of DOM elements across all websites.
+            dt#numDomains
+                a(href='trends.php#numDomains') # Domains
+            dd
+                | A single web page typically loads resources from a variety of web servers across many domains.
+                | This chart shows the average number of domains that are accessed across all websites.
+            dt#maxDomainReqs
+                a(href='trends.php#maxDomainReqs') Max Reqs on 1 Domain
+            dd
+                | This long-named chart shows an interesting performance statistic.
+                | A single web page typically loads resources from various domains.
+                | For each page, the number of requests on the most-used domain is calculated,
+                | and this chart shows the average of that value across all websites.
+            dt#maxage0
+                a(href='trends.php#maxage0') Uncacheable Resources
+            dd
+                | A response can be read from the cache without requiring any HTTP requests if it is still fresh.
+                | This
+                i freshness lifetime
+                | is determined by the
+                a(href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9') Cache-Control
+                | and
+                a(href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.21') Expires
+                | headers.
+                | This chart shows the percentage of responses that were NOT cacheable, i.e, they had a "freshness lifetime" of zero seconds.
+                | The
+                a(href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html') calculation of freshness lifetime
+                | is complex but we've tried to reproduce it here as follows, where freshness lifetime is
+                code expAge
+                | :
+                ul
+                    li
+                        | If
+                        code must-revalidate
+                        | ,
+                        code no-cache
+                        | , or
+                        code no-store
+                        | is specified, then
+                        code expAge
+                        | is 0.
+                    li
+                        | Otherwise, if
+                        code max-age
+                        | is specified, then the number of seconds is the
+                        code expAge
+                        | .
+                    li
+                        | Otherwise, if there is an
+                        code Expires
+                        | header,
+                        code expAge
+                        | is the difference between the
+                        code Expires
+                        | date and the time when the request was made.
+                    li
+                        | Otherwise,
+                        code expAge
+                        | is 0.
+            dt#perGlibs
+                a(href='trends.php#perGlibs') Sites using Google Libraries API
+            dd
+                | This is the percentage of sites that have at least one request containing "googleapis.com" in the hostname.
+            dt#perFlash
+                a(href='trends.php#perFlash') Sites with Flash
+            dd
+                | This chart shows the percentage of sites that make at least one Flash request.
+                | Note that this Flash request could be from an ad or some other third party content on the page,
+                | and may not be from the website's main content.
+            dt#perFonts
+                a(href='trends.php#perFonts') Sites with Custom Fonts
+            dd
+                | This chart shows the percentage of sites that make at least one request for a custom font.
+                | The determination of a custom font request is based on the Content-Type response header.
+                | However, since many fonts today do not have the proper Content-Type value, we also include requests that end in
+                | ".eot", ".ttf", ".woff", or ".otf", or contain ".eot?", ".ttf?", ".woff?", or ".otf?" (i.e., a querystring).
+            dt#perCompressed
+                a(href='trends.php#perCompressed') Compressed Responses
+            dd
+                | This chart shows the number of compressed responses over the number of HTML, CSS, and JavaScript requests.
+                | There's a flaw in this calculation because 10-20% of compressed responses are images, fonts, or Flash.
+                | We'll be updating this chart soon.
+            dt#perHttps
+                a(href='trends.php#perHttps') HTTPS Requests
+            dd
+                | This chart shows the percentage of requests done over https.
+            dt#perErrors
+                a(href='trends.php#perErrors') Pages with Errors
+            dd
+                | This chart shows the percentage of pages that have at least one error, i.e., a response with a 4xx or 5xx status code.
+            dt#perRedirects
+                a(href='trends.php#perRedirects') Pages with Redirects
+            dd
+                | This chart shows the percentage of websites that have at least one redirect.
+                | A response is classified as a redirect if it has a 3xx status code other than 304.
+                | Note that the redirect may be from an ad or other third party content.
+            dt#perCdn
+                a(href='trends.php#perCdn') Sites hosting HTML on CDN
+            dd
+                | This measures the percentage of sites that have their main HTML document served from a CDN.
+            dt#bytesperpage
+                a(href='interesting.php#bytesperpage') Average Bytes per Page by Content Type
+            dd
+                | This chart shows the breakdown of website size by content type.
+                | Note that the sizes are the transfer sizes.
+                | Therefore, compressed responses are counted as smaller than the original uncompressed content.
+            dt#responsesizes
+                a(href='interesting.php#responsesizes') Average Individual Response Size
+            dd
+                | This chart shows the average transfer size for specific content types.
+            dt#googlelibs
+                a(href='interesting.php#googlelibs') Pages Using Google Libraries API
+            dd
+                | This chart shows the percentage of sites that have at least one request containing "googleapis.com" in the hostname.
+            dt#flash
+                a(href='interesting.php#flash') Pages Using Flash
+            dd
+                | This chart shows the percentage of sites with at least one Flash request.
+            dt#fonts
+                a(href='interesting.php#fonts') Pages Using Custom Fonts
+            dd
+                | This chart shows the percentage of sites that make at least one request for a custom font.
+                | See
+                a(href='#perFonts') Sites with Custom Fonts
+                | for more information.
+            dt#imageformats
+                a(href='interesting.php#imageformats') Image Requests by Format
+            dd
+                | This chart breaks down all image requests based on format type.
+            dt#caching
+                a(href='interesting.php#caching') Cache Lifetime
+            dd
+                | This shows a histogram of the cache lifetime (AKA, freshness lifetime) of requests across all websites.
+                | See
+                a(href='#maxage0') Uncacheable Resources
+                | for more information.
+            dt#protocol
+                a(href='interesting.php#protocol') HTTPS Requests
+            dd
+                | This chart shows the percentage of requests done over https.
+            dt#errors
+                a(href='interesting.php#errors') Pages with Errors
+            dd
+                | This chart shows the percentage of pages that have at least one error, i.e., a response with a 4xx or 5xx status code.
+            dt#redirects
+                a(href='interesting.php#redirects') Pages with Redirects
+            dd
+                | This chart shows the percentage of websites that have at least one redirect.
+                | A response is classified as a redirect if it has a 3xx status code other than 304.
+                | Note that the redirect may be from an ad or other third party content.
+            dt#connections
+                a(href='interesting.php#connections') Connections per Page
+            dd
+                | The number of TCP connections opened per page.
+            dt#avgdomdepth
+                a(href='interesting.php#avgdomdepth') Average DOM Depth
+            dd
+                | The average DOM depth in the page.
+            dt#docheight
+                a(href='interesting.php#docheight') Document Height
+            dd
+                | The document height in pixels.
+            dt#localstorage
+                a(href='interesting.php#localstorage') Size of localStorage
+            dd
+                | The size of localStorage.
+            dt#sessionstorage
+                a(href='interesting.php#sessionstorage') Size of sessionStorage
+            dd
+                | The size of sessionStorage.
+            dt#numiframes
+                a(href='interesting.php#numiframes') Iframes per Page
+            dd
+                | The number of iframes in the page.
+            dt#numscripts
+                a(href='interesting.php#numscripts') Script Tags per Page
+            dd
+                | The number of SCRIPT tags in the page. This includes both external and inline scripts.
+            dt#onLoad
+                a(href='interesting.php#onLoad') Highest Correlation to Load Time
+            dd
+                | This chart shows the five variables that have the highest correlation to page load time.
+            dt#renderStart
+                a(href='interesting.php#renderStart') Highest Correlation to Render Time
+            dd
+                | This chart shows the five variables that have the highest correlation to start render time.
+    a#properties(name='download')
+    h4 下载数据
+    | 可按月或按年下载，mysql形式
+    br
+    | 敬请关注
+    a#properties(name='api')
+    h4 API调用
+    | 对外提供的性能趋势数据及网址对比数据API
+    br
+    | 敬请关注

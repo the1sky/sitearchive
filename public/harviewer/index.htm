@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTTP Archive Viewer 2.0.16</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body class="harBody">
+<div id="content" version="2.0.16"></div>
+<!--[if IE]>
+<script type="text/javascript" src="scripts/excanvas/excanvas.js"></script><![endif]-->
+<script src="scripts/jquery.js"></script>
+<script data-main="scripts/harViewer" src="scripts/require.js"></script>
+<link rel="stylesheet" href="css/harViewer.css" type="text/css"/>
+<script type="text/javascript">
+    $( '#content' ).bind( 'onViewerPreInit', function(e){
+        var viewer = e.target.repObject;
+        viewer.removeTab( "About" );
+        viewer.removeTab( "Schema" );
+        viewer.removeTab( "Home" );
+        viewer.removeTab( "DOM" );
+
+        var preview = viewer.getTab( "Preview" );
+        preview.toolbar.removeButton( "download" );
+        preview.toolbar.removeButton( "clear" );
+    } );
+
+    $( '#content' ).bind( 'onViewerHARLoaded', function(e){
+        var getTotalHeight = function(){
+            var toolbarHeight = $( '.previewToolbar' ).height();
+            var contentHeight = $( '.tabPreviewBody' ).height();
+            var totalHeight = toolbarHeight + contentHeight + 10;
+            return totalHeight;
+        }
+
+        window.parent.setHarviewerHeight( getTotalHeight() );
+
+        $('.toolbarButton').bind('click', function(e){
+            window.parent.setHarviewerHeight( getTotalHeight() );
+        });
+    } );
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/bootstrap.min.custom.css')
+        link(rel='stylesheet', href='/css/DT_bootstrap.css')
+        link(rel='stylesheet', href='/css/dc.css')
+        link(rel='stylesheet', href='/css/perf.css')
+        block customCss
+    body
+        include navigation.jade
+        block content
+        script(src='/js/jquery.min.js')
+        script(src='/js/bootstrap.min.js')
+        script(src='/js/jquery.dataTables.js')
+        script(src='/js/DT_bootstrap.js')
+        script(src='/js/d3.js')
+        script(src='/js/dc.js')
+        script(src='/js/crossfilter.js')
+        script(src='/js/mustache.js')
+        script(src='/js/jquery.goup.js')
+        script(src='/js/perf.js')
+        block customScript

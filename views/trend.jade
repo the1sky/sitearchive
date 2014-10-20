@@ -1,0 +1,20 @@
+extends layout
+block content
+    #main
+        include datepicker
+        include metrics_list
+    #trend
+block customScript
+    script(src='/js/jquery.minimalect.js')
+    script(src='/js/echarts-plain.js')
+    script(src='/js/dateRange.js')
+    script(src='/js/icheck.min.js')
+    script(src='/js/macarons.js')
+    script(src='/js/perf_trend.js')
+
+block customCss
+
+    link(rel='stylesheet', href='/css/jquery.minimalect.css')
+    link(rel='stylesheet', href='/css/dateRange.css')
+    link(rel='stylesheet', href='/css/skins/flat/green.css')
+

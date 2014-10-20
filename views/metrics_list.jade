@@ -1,0 +1,18 @@
+//
+   Created by nant on 9/18/2014.
+
+#metricslist
+    p.title 选择指标项:
+    ul.list-column-editor
+        -var len = metrics.length;
+        -for( var i = 0; i < len; i++ )
+            -var id='metric_input_' + i;
+            -var desc= metrics[i].desc ;
+            -var name=metrics[i].name;
+            -var d=metrics[i].d;
+            li
+                if d == 1
+                    input(type='checkbox',name='iCheck',class='metriclist', id='#{id}',value='#{name}', desc='#{desc}',checked)
+                else
+                    input(type='checkbox',name='iCheck',class='metriclist', id='#{id}',value='#{name}',desc='#{desc}')
+                label(for='#{id}') #{desc}

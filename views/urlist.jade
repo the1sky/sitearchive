@@ -1,0 +1,33 @@
+//
+   Created by nant on 9/2/2014.
+#urllist
+    ul.nav.nav-tabs(role='tablist')#task_detail
+        li.active(role='presentation')
+            a(href='#url_task',data-toggle='tab') 已完成任务
+        li(role='presentation')
+            a(href='#url_list',data-toggle='tab') url列表
+    div.tab-content
+        div#url_task.tab-pane.active
+            table(cellspacing='0',cellpadding='0',border='0',class=['table','table-striped','table-bordered', 'dataTable','no-footer'],aria-describedb="example_info")#urltable
+                thead
+                    tr
+                        th url
+                        th 首屏时间( ms )
+                        th 白屏时间( ms )
+                        th 下载时间( ms )
+                        th 首字节时间( ms )
+                        th dns查询时间( ms )
+                tbody
+                    - var len =data.length;
+                    - for( var i = 0; i < len; i++ )
+                        - var type = ( i % 2 ) != 0 ? 'even' : 'odd';
+                        - var dataItem = data[i]
+                        tr(class=type)
+                            td(class='sorting_1')
+                                a(style='cursor:hand',href='/details/?url=#{dataItem["url"]}') #{dataItem['url']}
+                            td(class='sorting_1') #{dataItem['first_screen_time']}
+                            td(class='sorting_1') #{dataItem['white_screen_time']}
+                            td(class='sorting_1') #{dataItem['load_time']}
+                            td(class='sorting_1') #{dataItem['timing_ttfb']}
+                            td(class='sorting_1') #{dataItem['timing_dns']}
+        div#url_list.tab-pane

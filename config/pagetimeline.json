@@ -1,0 +1,7 @@
+{
+	"url":"http://www.baidu.com",
+	"silent":true,
+	"reload":true,
+	"timeout":5000,
+	"viewport":"1366x768"
+}

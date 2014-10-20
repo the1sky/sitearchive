@@ -1,0 +1,19 @@
+extends layout
+block content
+    #main
+        #owl.owl-carousel.owl-theme
+            .item
+                img(src='images/sitearchive1.jpg', alt='The Last of us')
+            .item
+                img(src='images/sitearchive2.jpg', alt='GTA V')
+            .item
+                img(src='images/sitearchive3.jpg', alt='Mirror Edge')
+block customCss
+    link(rel='stylesheet', href='/css/owl.carousel.css')
+    link(rel='stylesheet', href='/css/owl.theme.css')
+block customScript
+    script(src='/js/owl.carousel.js')
+    script(src='/js/perf_index.js')
+
+
+

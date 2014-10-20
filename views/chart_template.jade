@@ -1,0 +1,28 @@
+//
+   Created by nant on 9/18/2014.
+
+script#top_urls_t(type='x-tmpl-mustache')
+    {{#items}}
+    li.list-group-item
+        {{#badges}}
+        span.badge
+            {{badge}}
+        {{/badges}}
+        a(href="{{url}}", target="_blank"){{url}}
+    {{/items}}
+
+script#cookies_t(type='x-tmpl-mustache')
+    {{#title}}
+    li.list-group-item.active
+        span.badge
+            {{badge}}
+        {{text}}
+    {{/title}}
+    {{#items}}
+    li.list-group-item
+        {{#badges}}
+        span.badge
+            {{badge}}
+        {{/badges}}
+        {{content}}
+    {{/items}}

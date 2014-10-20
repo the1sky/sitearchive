@@ -1,0 +1,28 @@
+[2014-10-16 16:22:50.453] [ERROR] dateFileLog - Unable to connect to the database: [Error: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)]
+Error: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at module.exports.Sequelize.authenticate (d:\projs\sitearchive\node_modules\sequelize\lib\sequelize.js:413:35)
+    at null.<anonymous> (d:\projs\sitearchive\node_modules\sequelize\lib\emitters\custom-event-emitter.js:101:38)
+    at emit (events.js:95:17)
+    at module.exports.CustomEventEmitter.emit (d:\projs\sitearchive\node_modules\sequelize\lib\emitters\custom-event-emitter.js:61:33)
+    at module.exports.execQueueItem (d:\projs\sitearchive\node_modules\sequelize\lib\dialects\mysql\connector-manager.js:400:25)
+    at null.<anonymous> (d:\projs\sitearchive\node_modules\sequelize\lib\emitters\custom-event-emitter.js:101:38)
+    at emit (events.js:95:17)
+    at module.exports.CustomEventEmitter.emit (d:\projs\sitearchive\node_modules\sequelize\lib\emitters\custom-event-emitter.js:61:33)
+    at module.exports.ConnectorManager.getConnection (d:\projs\sitearchive\node_modules\sequelize\lib\dialects\mysql\connector-manager.js:243:28)
+    at exports.Pool.diff (d:\projs\sitearchive\node_modules\sequelize\node_modules\generic-pool\lib\generic-pool.js:271:11)
+[2014-10-16 16:24:49.007] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 16:24:57.037] [INFO] dateFileLog - http://www.cnool.net
+[2014-10-16 16:25:22.208] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 19:42:50.222] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:00:45.384] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:04:18.381] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:05:24.075] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:06:30.926] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:07:33.050] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:08:35.854] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:09:19.311] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:12:38.376] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:14:18.279] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:24:31.541] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:26:15.562] [INFO] dateFileLog - Connection has been established successfully.
+[2014-10-16 20:26:38.754] [INFO] dateFileLog - Connection has been established successfully.
